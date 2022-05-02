@@ -1,0 +1,22 @@
+[package]
+name = "slog_prometheus"
+version = "0.1.0"
+authors = ["Christoph Girstenbrei <christoph.girstenbrei@retarus.de"]
+categories = ["development-tools::debugging"]
+description = "Prometheus metrics for the slog logging framework"
+edition = "2021"
+homepage = "https://github.com/retarus/slog_prometheus"
+keywords = ["log", "logging"]
+readme = "Readme.md"
+repository = "https://github.com/retarus/slog_prometheus"
+
+[dependencies]
+slog = "2.7.0"
+thiserror = "1.0.23"
+prometheus = "0.13.0"
+
+[dev-dependencies]
+prometheus_exporter = "0.8.4"
+reqwest = { version="0.11.10", features=["blocking"] }
+slog-async = "2.7.0"
+slog-term = "2.9.0"
