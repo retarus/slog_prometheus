@@ -7,6 +7,7 @@ description = "Prometheus metrics for the slog logging framework"
 edition = "2021"
 homepage = "https://github.com/retarus/slog_prometheus"
 keywords = ["log", "logging"]
+license = "MPL-2.0 OR MIT OR Apache-2.0"
 readme = "Readme.md"
 repository = "https://github.com/retarus/slog_prometheus"
 
